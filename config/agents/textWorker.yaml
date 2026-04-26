@@ -1,0 +1,6 @@
+role: textWorker
+model: ${LM_STUDIO_MODEL:-local-model}
+temperature: 0.35
+maxTokens: 12288
+systemPromptFile: prompts/textWorker.md
+qualityTier: balanced

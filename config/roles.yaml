@@ -1,0 +1,27 @@
+# Ключи поля subtask.role в декомпозиции → какой агент исполняет шаг и подпись в UI.
+# Добавляйте новые роли без смены кода: достаточно YAML + при необходимости нового агента в config/agents/.
+
+fallbackRole: dev
+
+mappings:
+  dev:
+    agent: devWorker
+    uiLabel: "Разработка"
+  code:
+    agent: devWorker
+    uiLabel: "Код"
+  writer:
+    agent: textWorker
+    uiLabel: "Текст"
+  essay:
+    agent: textWorker
+    uiLabel: "Эссе"
+  editor:
+    agent: textWorker
+    uiLabel: "Редактура"
+  research:
+    agent: textWorker
+    uiLabel: "Исследование"
+  analyst:
+    agent: textWorker
+    uiLabel: "Анализ"

@@ -1,0 +1,9 @@
+# TASK_STORE=sqlite | mongo
+provider: mongo
+
+sqlite:
+  path: ./data/agentmod.db
+
+mongo:
+  uri: mongodb://127.0.0.1:27017
+  database: agentmod

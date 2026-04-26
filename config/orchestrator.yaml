@@ -1,0 +1,5 @@
+maxParallel: 2
+# Сколько циклов decomposer→reviewer, пока reviewer не поставит approved.
+maxReviewRounds: 6
+# Одновременно выполняющихся пайплайнов (новая задача — HTTP 429, если лимит).
+maxConcurrentPipelines: 3

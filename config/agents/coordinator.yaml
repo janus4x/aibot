@@ -1,0 +1,6 @@
+role: coordinator
+model: ${LM_STUDIO_MODEL:-local-model}
+temperature: 0.2
+maxTokens: 4096
+systemPromptFile: prompts/coordinator.md
+qualityTier: balanced

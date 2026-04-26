@@ -1,0 +1,6 @@
+role: decomposer
+model: ${LM_STUDIO_MODEL:-local-model}
+temperature: 0.25
+maxTokens: 12288
+systemPromptFile: prompts/decomposer.md
+qualityTier: balanced

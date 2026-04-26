@@ -1,0 +1,6 @@
+role: reviewer
+model: ${LM_STUDIO_MODEL:-local-model}
+temperature: 0.15
+maxTokens: 8192
+systemPromptFile: prompts/reviewer.md
+qualityTier: strong

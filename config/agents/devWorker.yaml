@@ -1,0 +1,6 @@
+role: devWorker
+model: ${LM_STUDIO_MODEL:-local-model}
+temperature: 0.3
+maxTokens: 12288
+systemPromptFile: prompts/devWorker.md
+qualityTier: fast
